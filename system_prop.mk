@@ -8,8 +8,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.cpp.duplication=false \
-    persist.camera.hal.debug.mask=0 \
-    ro.camera.sensors=ov8865_q8v18a,ov2680_skuhf,ov2680_5987fhq
+    persist.camera.hal.debug.mask=0 
+    
+# Cam_low-light-killer
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.disable.spzoom=1 \
+    persist.camera.disable.anight=1    
+
 
 # Factory Reset Protection
 PRODUCT_PROPERTY_OVERRIDES += \
