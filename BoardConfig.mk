@@ -82,6 +82,9 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_CUSTOM_DTBTOOL := dtbToolOppo
 TARGET_KERNEL_CONFIG := lineageos_a37f_defconfig
 
+# Lights
+TARGET_PROVIDES_LIBLIGHT := true
+
 # Power
 TARGET_HAS_NO_POWER_STATS := true
 
