@@ -3,18 +3,20 @@ bin/adsprpcd:vendor/bin/adsprpcd|ab9fb19d1b7e6254db23c21510a5bc5e0b4b3dd5
 vendor/lib/libadsprpc.so|93187780561cd584110b5cef93d4ae240da5bad6
 vendor/lib/libfastcvopt.so|9555cc678e1b798a17c273325a161b4ef5f0379f
 
-# Audio - from jalebi
-vendor/lib/libacdb-fts.so|60def53f08b844e21687b981fdee4e745386612a
-vendor/lib/libacdbloader.so|bd738ef73bf0c32570d3b4ddafbd2b519c37cc24
-vendor/lib/libacdbrtac.so|9bfe32c713147ca59db58be39e851750107f3be4
-vendor/lib/libadiertac.so|60c8719b7adaf224b486c9c2af0313dbe9e2579b
-vendor/lib/libaudcal.so|313579c679473759e2814784fd64faeac25e3bbe
-vendor/lib/libFlacSwDec.so|b06f87e91a6ec9e8bf5e200a313467d5ed6f72fa
-vendor/lib/soundfx/libqcbassboost.so|8ed65760940653ada21d72cd5fb7b66174cbc422
-vendor/lib/soundfx/libqcreverb.so|725ce9f7d696dae58da423f33dbbf2abcf16b9ac
-vendor/lib/soundfx/libqcvirt.so|5393f3a58247619413f35b7550d48e7cc0bd39d5
+# Audio
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbmapper.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libaudcal.so
+vendor/lib/libFlacSwDec.so
+vendor/lib/libaudioalsa.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
 
-# Bluetooth - from jalebi
+# Bluetooth 
 bin/btnvtool:vendor/bin/btnvtool|2a673ba673797ecdce19617eb260b791f317eff9
 bin/hci_qcomm_init:vendor/bin/hci_qcomm_init|717a6d532ad9454d86be81c9ca8079711f2cc628
 vendor/lib/libbtnv.so|b4b692e2a89f97677d66cb26152cade106bb1cc4
