@@ -4,7 +4,7 @@
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IKeyDisabler</name>
+            <name>ITouchscreenGesture</name>
             <instance>default</instance>
         </interface>
     </hal>

@@ -138,7 +138,7 @@ PRODUCT_COPY_FILES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.A37
+    vendor.lineage.touch@1.0-service.oppo_msm8916
 
 # USB ID
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \

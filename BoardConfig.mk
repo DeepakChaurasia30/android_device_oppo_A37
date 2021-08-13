@@ -101,6 +101,9 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib/libmmcamera2_stats_modules.so|libshim_camera.so \
     /system/vendor/lib/libmmcamera2_stats_algorithm.so|libcamera_shim.so \
     /system/vendor/lib/hw/camera.vendor.msm8916.so|libshim_camera.so 
+    
+# Touchscreen
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"    
 
 # inherit from the proprietary version
 include vendor/oppo/A37/BoardConfigVendor.mk
