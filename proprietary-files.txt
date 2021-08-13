@@ -17,9 +17,9 @@ vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 
 # Bluetooth 
-bin/btnvtool:vendor/bin/btnvtool|2a673ba673797ecdce19617eb260b791f317eff9
-bin/hci_qcomm_init:vendor/bin/hci_qcomm_init|717a6d532ad9454d86be81c9ca8079711f2cc628
-vendor/lib/libbtnv.so|b4b692e2a89f97677d66cb26152cade106bb1cc4
+bin/btnvtool:vendor/bin/btnvtool
+bin/hci_qcomm_init:vendor/bin/hci_qcomm_init
+vendor/lib/libbtnv.so
 
 # Camera-actuators
 vendor/lib/libactuator_dw9714.so
