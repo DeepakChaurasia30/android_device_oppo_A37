@@ -217,8 +217,6 @@
         <item>"/apex/com.android.runtime/javalib/core-libart.jar"</item>
         <item>"/apex/com.android.media/javalib/updatable-media.jar"</item>
         <item>"/system/product/priv-app/SystemUI/SystemUI.apk"</item>
-        <item>"/data/dalvik-cache/arm/system@product@priv-app@SystemUI@SystemUI.apk@classes.dex"</item>
-        <item>"/data/dalvik-cache/arm/system@product@priv-app@SystemUI@SystemUI.apk@classes.vdex"</item>
-        <item>"/system/lib64/libsurfaceflinger.so"</item>
+        <item>"/system/lib/libsurfaceflinger.so"</item>
    </string-array>
 </resources>
