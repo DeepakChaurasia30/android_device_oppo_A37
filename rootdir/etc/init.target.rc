@@ -26,10 +26,6 @@
 #
 
 on boot
-    # Touchscreen
-    chown system system /proc/touchpanel/double_tap_enable
-    chmod 0660 /proc/touchpanel/double_tap_enable
-    
     # charger
     chown root system /sys/class/power_supply/bms/current_now
     chown root system /sys/class/power_supply/bms/voltage_ocv
