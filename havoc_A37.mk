@@ -16,7 +16,7 @@
 $(call inherit-product, device/oppo/A37/full_A37.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_mini_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
@@ -24,7 +24,7 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8916
 # Assert
 TARGET_OTA_ASSERT_DEVICE := a37f,A37f,A37fw,a37fw,msm8916,msm8939
 
-PRODUCT_NAME := lineage_A37
+PRODUCT_NAME := havoc_A37
 BOARD_VENDOR := oppo
 PRODUCT_DEVICE := A37
 
